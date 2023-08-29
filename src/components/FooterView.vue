@@ -20,7 +20,7 @@ import { PhMagnifyingGlass } from '@phosphor-icons/vue'
           <button class="bg-primary text-[#E9D800] px-8 self-stretch" type="submit">Search</button>
         </div>
       </form>
-      <div class="grid grid-cols-6 gap-10">
+      <div class="grid grid-cols-2 md:grid-cols-6 gap-10">
         <div class="flex flex-col gap-10">
           <div class="flex flex-col gap-5">
             <div class="font-medium text-xl">World</div>
