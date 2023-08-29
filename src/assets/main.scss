@@ -1,0 +1,23 @@
+@import 'base';
+
+@layer components {
+  .c-navbar {
+    @apply max-w-7xl w-full mx-auto flex py-4 gap-6 md:gap-10 justify-between items-center px-10;
+
+    .c-navbar__links {
+      @apply justify-between items-center hidden lg:flex flex-1;
+    }
+  }
+
+  .c-news-banner {
+    @apply bg-primary py-2 items-center;
+  }
+
+  .c-news-banner__content {
+    @apply max-w-7xl mx-auto flex items-center justify-between gap-8 px-10;
+  }
+
+  .c-footer {
+    @apply max-w-7xl w-full mx-auto flex flex-col py-10 px-10 gap-10;
+  }
+}
